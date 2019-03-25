@@ -1,0 +1,24 @@
+{
+  "name": "pdf-extractor",
+  "version": "1.0.0",
+  "description": "PDF Extractor App",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "My",
+    "PDF",
+    "Extractor",
+    "App"
+  ],
+  "author": "Kaustav Sarkar | Maheep Mittal",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "4.1.1",
+    "node-tesseract-ocr": "0.1.0",
+    "react": "16.8.5",
+    "react-dom": "16.8.5"
+  }
+}
